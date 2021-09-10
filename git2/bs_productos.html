@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link REL="stylesheet" HREF="./css/Productos.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Barrage Store-Productos</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="logo" class="navbar-brand" href="BS HOME.html"><img class="logo" class="navbar-brand"
+            src="./img/logo barrage.png" alt="logo-barrage"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="BS PRODUCTS.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="BS PRODUCTS.html #barra-nuevos-productos">Nuevos Productos</a></li>
+                <li><a class="dropdown-item" href="BS PRODUCTS.html #barra-productos-cerrados">Productos Cerrados</a>
+                </li>
+                <li><a class="dropdown-item" href="BS PRODUCTS.html #barra-singles">Singles</a></li>
+                <li><a class="dropdown-item" href="BS PRODUCTS.html #barra-accesorios">Accesorios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="BS GALLERY.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Galeria
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="BS GALLERY.html">Lanzamientos</a></li>
+                <li><a class="dropdown-item" href="BS BANLIST.html">Banlist</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="BS CONTACT.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="Busqueda" placeholder="Busqueda" aria-label="Busqueda">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="cuerpo-completo">
+    <!----BOTONERA---->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div id="sidebar" class="sidebar">
+            <ul>
+              <li class="botonera"> <a href="#barra-nuevos-productos">
+                  <h3> Nuevos Productos </h3>
+                </a>
+              </li>
+              <li class="botonera"> <a href="#barra-productos-cerrados">
+                  <h3> Productos cerrados </h3>
+                </a>
+              </li>
+              <li class="botonera"> <a href="#barra-singles">
+                  <h3> Singles </h3>
+                </a>
+              </li>
+              <li class="botonera"> <a href="#barra-accesorios">
+                  <h3> Accesorios </h3>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <!----CARRUSEL---->
+        <div class="col-lg-8">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/Lightning-overdrive.jpg" class="d-block w-100" alt="Image not found">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/Kit.jpg" class="d-block w-100" alt="Image not found">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/pedido.jpg" class="d-block w-100" alt="Image not found">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!----CUERPO, PRODUCTOS Y MERCADERIA---->
+          <div id="titulos">
+            <div id="barra-nuevos-productos" class="barra-nuevos-productos">
+              <img src="./img/Nuevos Productos.jpg" class="d-block w-100" alt="Image not found">
+            </div>
+            <div class="container mt-4 d-flex mb-5">
+              <div class="row">
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Lightning-OverdriveBox.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">LIGHTNING OVERDRIVE</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Caja sellada (contiene 24 boosters de la expansión)</p> <br>
+                        <p class="card-text mr-4 text-price">$18000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/maximum gold.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">BOOSTER-BOX: MAXIMUM GOLD</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Caja de reimpresiones (contiene 3 sobres de 10 cartas c/u)</p>
+                        <p class="card-text mr-4 text-price">$4500</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/structure deck shaddoll.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">STRUCTURE DECK SHADDOLL</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Estructura shaddoll (contiene 42 cartas y playmat)</p>
+                        <p class="card-text mr-4 text-price">$3000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="barra-productos-cerrados" class="barra-productos-cerrados">
+              <img src="./img/Productos Cerrados.jpg" class="d-block w-100" alt="Image not found">
+            </div>
+            <div class="container mt-4 d-flex mb-5">
+              <div class="row">
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Duel-Devastator.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">BOOSTER BOX: DUEL DEVASTATOR</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Potencia tu deck con todos los soportes de DUEL DAVASTATOR</p> <br>
+                        <p class="card-text mr-4 text-price">$5000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Code.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">CODE OF THE DUELIST</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Caja sellada (contiene 24 boosters de la expansión)</p>
+                        <p class="card-text mr-4 text-price">$15000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Ancient-Guardians.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">ANCIENT GUARDIANS</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Caja sellada (contiene 24 boosters de la expansión)</p>
+                        <p class="card-text mr-4 text-price">$16000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Blazing-Vortex.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">BLAZING VORTEX</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Caja sellada (contiene 24 boosters de la expansión)</p>
+                        <p class="card-text mr-4 text-price">$18000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="barra-singles" class="barra-singles">
+              <img src="./img/Singles.jpg" class="d-block w-100" alt="Image not found">
+            </div>
+            <div class="container mt-4 d-flex mb-5">
+              <div class="row">
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Dragun.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">DRAGUN OF THE RED-EYES</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Dragun of the Red-Eyes</p> <br>
+                        <p class="card-text mr-4 text-price">$10000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/galatea.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">GALATEA, THE ORCUST AUTO.</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Galatea, the Orcust Automaton</p>
+                        <p class="card-text mr-4 text-price">$250</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Astrograph.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">ASTROGRAPH SORCERER</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Astrograph Sorcerer</p>
+                        <p class="card-text mr-4 text-price">$900</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Stardust.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">THE STARDUST DRAGON</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Stardust Dragon</p>
+                        <p class="card-text mr-4 text-price">$200</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/zexal.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">NUMBER S0: UTOPIC ZEXAL</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">number s0: utopic zexal</p>
+                        <p class="card-text mr-4 text-price">$1200</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Thousand Dragon.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">TEN THOUSAND DRAGON</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">ten thousand dragon</p>
+                        <p class="card-text mr-4 text-price">$50000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="barra-accesorios" class="barra-accesorios">
+              <img src="./img/Accesorios.jpg" class="d-block w-100" alt="Image not found">
+            </div>
+            <div class="container mt-4 d-flex mb-5">
+              <div class="row">
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Figura Stardust.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">FIGURA STARDUST DRAGON</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Figura de accion de Stardust Dragon</p> <br>
+                        <p class="card-text mr-4 text-price">$29000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Dados-Yugioh.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">DADOS DE ELEMENTOS</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Dados de elementos (precio por unidad)</p>
+                        <p class="card-text mr-4 text-price">$500</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                  <div class="card">
+                    <img src="./img/productos/Playmat-Ash.jpg" class="card-img-top w-100" />
+                    <div class="card-body">
+                      <h2 class="card-title">PLAYMAT ASH BLOSSOM</h2>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">Playmat de Ash Bloosom (incluye porta playmat)</p>
+                        <p class="card-text mr-4 text-price">$7000</p>
+                      </div>
+                      <a href="#" class="card-link">Añadir al Carrito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+
+          <h5 class="lala" class="text-uppercase mb-4 font-weight-bold text-warning">BARRAGE STORE</h5>
+          <p style="text-align: justify;">Barrage Store nace, en el año 2021, con el objetivo de que los duelistas de
+            CABA, respetando las medidas sanitarias conforme a los requisitos del Gobierno Nacional y KONAMI, se reunan
+            nuevamente a jugar.</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="lala" class="text-uppercase mb-4 font-weight-bold text-warning "> PRODUCTOS </h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Lightning Overdrive</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Ancient Guardians</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Blazing Vortex</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Genesis Impact</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+
+          <h5 class="lala" class="text-uppercase mb-4 font-wight-bold text-warning"> COMUNIDAD </h5>
+          <p>
+            <a href="./BS BANLIST.html" class="text-white" style="text-decoration:none;"> Banlist</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Remote Duel</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Duel Links</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;"> Lanzamientos</a>
+          </p>
+        </div>
+        <div class="cold-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="lala" class="text-uppercase mb-4 font-wight-bold text-warning"> CONTACTO </h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> Baldomero F. Moreno 9999
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> Barrage.store@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +54 011 15-8888-9999
+          </p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <!--col-lg-4--->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab 
+                            fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab 
+                          fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab 
+                        fa-discord"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCNRxWnRbaspGUlVQYvHf8gQ"
+                  class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab 
+                      fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
